@@ -193,3 +193,8 @@ body {
   div#header {
     width: 100%;
 }
+
+textarea {
+    width: 80% !important;
+    height: 30px !important;
+}
