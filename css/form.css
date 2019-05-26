@@ -195,6 +195,6 @@ body {
 }
 
 textarea {
-    width: 80% !important;
-    height: 30px !important;
+    width: 50% !important;
+    height: auto !important;
 }
