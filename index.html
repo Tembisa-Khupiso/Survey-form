@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Survey Form</title>
+  	<title>Survey Form</title>
 	<link rel="stylesheet" href="./css/form.css">
 </head>
-
 <body>
 	<div id="header">
 		<h1 id="title">Survey Form</h1>
 	</div>
-  <form id="survey-form">
-      <ul class="errorMessages"></ul>
+  	<form id="survey-form">
 		<fieldset>
 			<legend>
 				<p id="description">We would love to hear from you. Please fill out this form</p>
@@ -19,12 +16,12 @@
 			<div class="elements">
 				<label id="name-label" for="name">Name :</label>
 				<input id="name" required="required" type="text" value="" placeholder="Please enter your name" name="fname" size="20">
-			</div>
+      			</div>
       			<div class="elements">
 				<label id="email-label" for="email">Email :</label>
 				<input id="email" required="required" type="email" value="" placeholder="Please enter your email address" name="email" size="20">
-      			</div>
-      			<div class="elements">
+			</div>
+			<div class="elements">
 				<label id="number-label" for="number">Mobile :</label>
 				<input id="number" required="required" type="number" min="10" max="12" step="1" value="" placeholder="Please enter your mobile number" name="number" size="20">
 			</div>
@@ -46,6 +43,7 @@
 				</div>
 				<div class="gender">
 					<input id="r2" type="radio" name="gender" value="Female">Female
+			</div>
 			</div><br><br>
 			<div class="elements">
 				<label id="flour-label" for="list">Favorite Flour :</label>
@@ -54,22 +52,24 @@
 				</div>
 				<div class="flour">
 					<input id="ch2" type="checkbox" name="flour[]" value="sasko"> Sasko Cake Flour
-				 </div>
-				 <div class="flour">
+			</div>
+			<div class="flour">
 					<input id="ch3" type="checkbox" name="flour[]" value="snowflake"> Snowflake Cake Flour
-				 </div>
-			 </div>	
-		         <div class="elements">
-				<textarea></textarea>
-		         </div>
-			 <div class="submit">
+				</div>
+      			</div>
+      			<br><br><br>
+		        <div class="elements">
+				<label id="txt-label" for="list">Leave Comment :</label>
+				<div class="txt"><textarea></textarea></div>
+		        </div>
+			<div class="submit">
 				<button id="submit" class="btn btn-primary">Submit</button>
-			 </div>
+			</div>
 		</fieldset>
 	</form>
 	<footer>
 		<p class="copyright">Copyright ©2019. Designed by <a href="tembisakupiso.co.za">Tembisa Khupiso</a></p>
-  </footer>
-  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  	</footer>
+  	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
