@@ -15,6 +15,7 @@ body {
       width: 60%;
       padding: 0px;
       border: none;
+      margin-top: 10px;
   }
   
   label {
@@ -168,13 +169,6 @@ body {
       text-align: left;
       color: #fff;
   }
-
-  .txt {
-    width: 63%;
-    float: right;
-    text-align: left;
-    color: #fff;
-}
   
   input#r1 {
       width: 50px;
